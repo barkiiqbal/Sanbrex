@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		711570EB1DB4E6040030105D /* ENG1.png in Resources */ = {isa = PBXBuildFile; fileRef = 711570E71DB4E6040030105D /* ENG1.png */; };
+		711570EC1DB4E6040030105D /* CAN1.png in Resources */ = {isa = PBXBuildFile; fileRef = 711570E81DB4E6040030105D /* CAN1.png */; };
+		711570ED1DB4E6040030105D /* USA1.png in Resources */ = {isa = PBXBuildFile; fileRef = 711570E91DB4E6040030105D /* USA1.png */; };
+		711570EE1DB4E6040030105D /* JPY1.png in Resources */ = {isa = PBXBuildFile; fileRef = 711570EA1DB4E6040030105D /* JPY1.png */; };
+		711570F21DB4E6B60030105D /* AUS1.png in Resources */ = {isa = PBXBuildFile; fileRef = 711570F11DB4E6B60030105D /* AUS1.png */; };
 		71C1D3811DB4AE98009534E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C1D3801DB4AE98009534E7 /* main.m */; };
 		71C1D3841DB4AE98009534E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C1D3831DB4AE98009534E7 /* AppDelegate.m */; };
 		71C1D3871DB4AE98009534E7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C1D3861DB4AE98009534E7 /* FirstViewController.m */; };
@@ -14,9 +19,20 @@
 		71C1D38D1DB4AE98009534E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C1D38B1DB4AE98009534E7 /* Main.storyboard */; };
 		71C1D38F1DB4AE98009534E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71C1D38E1DB4AE98009534E7 /* Assets.xcassets */; };
 		71C1D3921DB4AE98009534E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C1D3901DB4AE98009534E7 /* LaunchScreen.storyboard */; };
+		71E1F50F1DB4B23300ABDD2B /* PriceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71E1F50E1DB4B23300ABDD2B /* PriceCell.xib */; };
+		71E1F5121DB4B25000ABDD2B /* PriceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E1F5111DB4B25000ABDD2B /* PriceCell.swift */; };
+		71E1F5141DB4B27C00ABDD2B /* PriceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E1F5131DB4B27C00ABDD2B /* PriceController.swift */; };
+		DA9DB53B59D209550109928C /* libPods-Sanbrex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FCBE9670C382F53135E49B /* libPods-Sanbrex.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D90C41807572EAFB6EF3F5B /* Pods-Sanbrex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sanbrex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sanbrex/Pods-Sanbrex.debug.xcconfig"; sourceTree = "<group>"; };
+		6A0922E46191AAE89253A09F /* Pods-Sanbrex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sanbrex.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sanbrex/Pods-Sanbrex.release.xcconfig"; sourceTree = "<group>"; };
+		711570E71DB4E6040030105D /* ENG1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ENG1.png; sourceTree = "<group>"; };
+		711570E81DB4E6040030105D /* CAN1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CAN1.png; sourceTree = "<group>"; };
+		711570E91DB4E6040030105D /* USA1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = USA1.png; sourceTree = "<group>"; };
+		711570EA1DB4E6040030105D /* JPY1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JPY1.png; sourceTree = "<group>"; };
+		711570F11DB4E6B60030105D /* AUS1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AUS1.png; sourceTree = "<group>"; };
 		71C1D37C1DB4AE98009534E7 /* Sanbrex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sanbrex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71C1D3801DB4AE98009534E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		71C1D3821DB4AE98009534E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,6 +45,11 @@
 		71C1D38E1DB4AE98009534E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71C1D3911DB4AE98009534E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71C1D3931DB4AE98009534E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71E1F50E1DB4B23300ABDD2B /* PriceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PriceCell.xib; sourceTree = "<group>"; };
+		71E1F5101DB4B24F00ABDD2B /* Sanbrex-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sanbrex-Bridging-Header.h"; sourceTree = "<group>"; };
+		71E1F5111DB4B25000ABDD2B /* PriceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceCell.swift; sourceTree = "<group>"; };
+		71E1F5131DB4B27C00ABDD2B /* PriceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceController.swift; sourceTree = "<group>"; };
+		C9FCBE9670C382F53135E49B /* libPods-Sanbrex.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sanbrex.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +57,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA9DB53B59D209550109928C /* libPods-Sanbrex.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		147E537DD63F7919B793C6CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9FCBE9670C382F53135E49B /* libPods-Sanbrex.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3859386DE9CED5E4127F2229 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D90C41807572EAFB6EF3F5B /* Pods-Sanbrex.debug.xcconfig */,
+				6A0922E46191AAE89253A09F /* Pods-Sanbrex.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		71C1D3731DB4AE98009534E7 = {
 			isa = PBXGroup;
 			children = (
 				71C1D37E1DB4AE98009534E7 /* Sanbrex */,
 				71C1D37D1DB4AE98009534E7 /* Products */,
+				3859386DE9CED5E4127F2229 /* Pods */,
+				147E537DD63F7919B793C6CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +102,9 @@
 		71C1D37E1DB4AE98009534E7 /* Sanbrex */ = {
 			isa = PBXGroup;
 			children = (
+				71E1F5131DB4B27C00ABDD2B /* PriceController.swift */,
+				71E1F5101DB4B24F00ABDD2B /* Sanbrex-Bridging-Header.h */,
+				71E1F50D1DB4B21700ABDD2B /* cell */,
 				71C1D3821DB4AE98009534E7 /* AppDelegate.h */,
 				71C1D3831DB4AE98009534E7 /* AppDelegate.m */,
 				71C1D3851DB4AE98009534E7 /* FirstViewController.h */,
@@ -71,6 +115,11 @@
 				71C1D38E1DB4AE98009534E7 /* Assets.xcassets */,
 				71C1D3901DB4AE98009534E7 /* LaunchScreen.storyboard */,
 				71C1D3931DB4AE98009534E7 /* Info.plist */,
+				711570F11DB4E6B60030105D /* AUS1.png */,
+				711570E71DB4E6040030105D /* ENG1.png */,
+				711570E81DB4E6040030105D /* CAN1.png */,
+				711570E91DB4E6040030105D /* USA1.png */,
+				711570EA1DB4E6040030105D /* JPY1.png */,
 				71C1D37F1DB4AE98009534E7 /* Supporting Files */,
 			);
 			path = Sanbrex;
@@ -84,6 +133,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		71E1F50D1DB4B21700ABDD2B /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				71E1F50E1DB4B23300ABDD2B /* PriceCell.xib */,
+				71E1F5111DB4B25000ABDD2B /* PriceCell.swift */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,9 +149,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71C1D3961DB4AE98009534E7 /* Build configuration list for PBXNativeTarget "Sanbrex" */;
 			buildPhases = (
+				8BBF2908F036D939409346E9 /* [CP] Check Pods Manifest.lock */,
 				71C1D3781DB4AE98009534E7 /* Sources */,
 				71C1D3791DB4AE98009534E7 /* Frameworks */,
 				71C1D37A1DB4AE98009534E7 /* Resources */,
+				F94121D29EA278C2C7E351C3 /* [CP] Embed Pods Frameworks */,
+				CDAC62C54B80184F4F615EEB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -116,6 +177,7 @@
 					71C1D37B1DB4AE98009534E7 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 872UU5QH48;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -143,13 +205,67 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				711570F21DB4E6B60030105D /* AUS1.png in Resources */,
+				711570ED1DB4E6040030105D /* USA1.png in Resources */,
+				711570EC1DB4E6040030105D /* CAN1.png in Resources */,
 				71C1D3921DB4AE98009534E7 /* LaunchScreen.storyboard in Resources */,
+				71E1F50F1DB4B23300ABDD2B /* PriceCell.xib in Resources */,
+				711570EB1DB4E6040030105D /* ENG1.png in Resources */,
 				71C1D38F1DB4AE98009534E7 /* Assets.xcassets in Resources */,
 				71C1D38D1DB4AE98009534E7 /* Main.storyboard in Resources */,
+				711570EE1DB4E6040030105D /* JPY1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BBF2908F036D939409346E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CDAC62C54B80184F4F615EEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sanbrex/Pods-Sanbrex-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F94121D29EA278C2C7E351C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sanbrex/Pods-Sanbrex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		71C1D3781DB4AE98009534E7 /* Sources */ = {
@@ -159,7 +275,9 @@
 				71C1D38A1DB4AE98009534E7 /* SecondViewController.m in Sources */,
 				71C1D3841DB4AE98009534E7 /* AppDelegate.m in Sources */,
 				71C1D3871DB4AE98009534E7 /* FirstViewController.m in Sources */,
+				71E1F5121DB4B25000ABDD2B /* PriceCell.swift in Sources */,
 				71C1D3811DB4AE98009534E7 /* main.m in Sources */,
+				71E1F5141DB4B27C00ABDD2B /* PriceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,25 +395,34 @@
 		};
 		71C1D3971DB4AE98009534E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D90C41807572EAFB6EF3F5B /* Pods-Sanbrex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 872UU5QH48;
 				INFOPLIST_FILE = Sanbrex/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.Sanbrex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sanbrex/Sanbrex-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		71C1D3981DB4AE98009534E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A0922E46191AAE89253A09F /* Pods-Sanbrex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 872UU5QH48;
 				INFOPLIST_FILE = Sanbrex/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.Sanbrex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sanbrex/Sanbrex-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -318,6 +445,7 @@
 				71C1D3981DB4AE98009534E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

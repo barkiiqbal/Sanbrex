@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--First-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" customClass="PriceController" customModule="Sanbrex" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
@@ -28,25 +30,87 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sAg-z7-dni">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <sections/>
+                                <connections>
+                                    <outlet property="dataSource" destination="9pv-A4-QxB" id="IYS-C1-ecu"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xYq-r0-Uly">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="8Xe-zF-CEd"/>
+                                    <constraint firstAttribute="width" constant="46" id="R2L-fQ-DmF"/>
+                                </constraints>
+                                <state key="normal" title="Gold"/>
+                                <connections>
+                                    <action selector="gold:" destination="9pv-A4-QxB" eventType="touchUpInside" id="y4f-Sr-Lbf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qxa-id-K54">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="AKe-xA-CYx"/>
+                                    <constraint firstAttribute="width" constant="46" id="e7e-eL-pb6"/>
+                                </constraints>
+                                <state key="normal" title="Silver"/>
+                                <connections>
+                                    <action selector="silver:" destination="9pv-A4-QxB" eventType="touchUpInside" id="Zrf-Ig-k6g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IfK-fT-9uh">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="67" id="Ong-dk-MKd"/>
+                                    <constraint firstAttribute="height" constant="30" id="cXy-Yc-sG5"/>
+                                </constraints>
+                                <state key="normal" title="Platidum"/>
+                                <connections>
+                                    <action selector="Pladium:" destination="9pv-A4-QxB" eventType="touchUpInside" id="0Ly-OX-Ohm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oaE-UV-7oi">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="61" id="ZzN-g8-jJy"/>
+                                    <constraint firstAttribute="height" constant="30" id="kfU-zD-9FH"/>
+                                </constraints>
+                                <state key="normal" title="Platinum"/>
+                                <connections>
+                                    <action selector="Platinum:" destination="9pv-A4-QxB" eventType="touchUpInside" id="CBP-9B-WNv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="sAg-z7-dni" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" id="2Hf-WK-c9Q"/>
                             <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
+                            <constraint firstItem="sAg-z7-dni" firstAttribute="bottom" secondItem="oaE-UV-7oi" secondAttribute="bottom" id="JmM-mV-1um"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="oaE-UV-7oi" secondAttribute="bottom" constant="20" id="KyZ-9r-f5S"/>
+                            <constraint firstItem="IfK-fT-9uh" firstAttribute="leading" secondItem="oaE-UV-7oi" secondAttribute="trailing" constant="8" id="N1p-o7-7fX"/>
+                            <constraint firstItem="oaE-UV-7oi" firstAttribute="bottom" secondItem="xYq-r0-Uly" secondAttribute="bottom" id="QGh-xP-nq2"/>
+                            <constraint firstItem="xYq-r0-Uly" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="43" id="QKp-fI-4oc"/>
+                            <constraint firstItem="oaE-UV-7oi" firstAttribute="leading" secondItem="qxa-id-K54" secondAttribute="trailing" constant="8" id="ZDL-s0-gxD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sAg-z7-dni" secondAttribute="trailing" id="c1w-0M-gsj"/>
+                            <constraint firstItem="IfK-fT-9uh" firstAttribute="bottom" secondItem="xYq-r0-Uly" secondAttribute="bottom" id="cdM-oO-WmY"/>
                             <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="8" symbolic="YES" id="cfb-er-3JN"/>
                             <constraint firstItem="A5M-7J-77L" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="e1l-AV-tCB"/>
                             <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
+                            <constraint firstItem="qxa-id-K54" firstAttribute="leading" secondItem="xYq-r0-Uly" secondAttribute="trailing" constant="8" id="fET-L4-GOb"/>
+                            <constraint firstItem="qxa-id-K54" firstAttribute="bottom" secondItem="xYq-r0-Uly" secondAttribute="bottom" id="mBB-CX-6CI"/>
+                            <constraint firstItem="sAg-z7-dni" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" id="yWH-5v-Go9"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="tableView" destination="sAg-z7-dni" id="e2U-AJ-f9F"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-320"/>
+            <point key="canvasLocation" x="749.60000000000002" y="-320.68965517241384"/>
         </scene>
         <!--Second-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
