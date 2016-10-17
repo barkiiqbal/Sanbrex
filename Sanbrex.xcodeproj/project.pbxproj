@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71C1D3811DB4AE98009534E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C1D3801DB4AE98009534E7 /* main.m */; };
+		71C1D3841DB4AE98009534E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C1D3831DB4AE98009534E7 /* AppDelegate.m */; };
+		71C1D3871DB4AE98009534E7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C1D3861DB4AE98009534E7 /* FirstViewController.m */; };
+		71C1D38A1DB4AE98009534E7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C1D3891DB4AE98009534E7 /* SecondViewController.m */; };
+		71C1D38D1DB4AE98009534E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C1D38B1DB4AE98009534E7 /* Main.storyboard */; };
+		71C1D38F1DB4AE98009534E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71C1D38E1DB4AE98009534E7 /* Assets.xcassets */; };
+		71C1D3921DB4AE98009534E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C1D3901DB4AE98009534E7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71C1D37C1DB4AE98009534E7 /* Sanbrex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sanbrex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C1D3801DB4AE98009534E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71C1D3821DB4AE98009534E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71C1D3831DB4AE98009534E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71C1D3851DB4AE98009534E7 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		71C1D3861DB4AE98009534E7 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		71C1D3881DB4AE98009534E7 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		71C1D3891DB4AE98009534E7 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		71C1D38C1DB4AE98009534E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71C1D38E1DB4AE98009534E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71C1D3911DB4AE98009534E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71C1D3931DB4AE98009534E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71C1D3791DB4AE98009534E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71C1D3731DB4AE98009534E7 = {
+			isa = PBXGroup;
+			children = (
+				71C1D37E1DB4AE98009534E7 /* Sanbrex */,
+				71C1D37D1DB4AE98009534E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71C1D37D1DB4AE98009534E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71C1D37C1DB4AE98009534E7 /* Sanbrex.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71C1D37E1DB4AE98009534E7 /* Sanbrex */ = {
+			isa = PBXGroup;
+			children = (
+				71C1D3821DB4AE98009534E7 /* AppDelegate.h */,
+				71C1D3831DB4AE98009534E7 /* AppDelegate.m */,
+				71C1D3851DB4AE98009534E7 /* FirstViewController.h */,
+				71C1D3861DB4AE98009534E7 /* FirstViewController.m */,
+				71C1D3881DB4AE98009534E7 /* SecondViewController.h */,
+				71C1D3891DB4AE98009534E7 /* SecondViewController.m */,
+				71C1D38B1DB4AE98009534E7 /* Main.storyboard */,
+				71C1D38E1DB4AE98009534E7 /* Assets.xcassets */,
+				71C1D3901DB4AE98009534E7 /* LaunchScreen.storyboard */,
+				71C1D3931DB4AE98009534E7 /* Info.plist */,
+				71C1D37F1DB4AE98009534E7 /* Supporting Files */,
+			);
+			path = Sanbrex;
+			sourceTree = "<group>";
+		};
+		71C1D37F1DB4AE98009534E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71C1D3801DB4AE98009534E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71C1D37B1DB4AE98009534E7 /* Sanbrex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71C1D3961DB4AE98009534E7 /* Build configuration list for PBXNativeTarget "Sanbrex" */;
+			buildPhases = (
+				71C1D3781DB4AE98009534E7 /* Sources */,
+				71C1D3791DB4AE98009534E7 /* Frameworks */,
+				71C1D37A1DB4AE98009534E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sanbrex;
+			productName = Sanbrex;
+			productReference = 71C1D37C1DB4AE98009534E7 /* Sanbrex.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71C1D3741DB4AE98009534E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Motivator;
+				TargetAttributes = {
+					71C1D37B1DB4AE98009534E7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 872UU5QH48;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 71C1D3771DB4AE98009534E7 /* Build configuration list for PBXProject "Sanbrex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71C1D3731DB4AE98009534E7;
+			productRefGroup = 71C1D37D1DB4AE98009534E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71C1D37B1DB4AE98009534E7 /* Sanbrex */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71C1D37A1DB4AE98009534E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C1D3921DB4AE98009534E7 /* LaunchScreen.storyboard in Resources */,
+				71C1D38F1DB4AE98009534E7 /* Assets.xcassets in Resources */,
+				71C1D38D1DB4AE98009534E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71C1D3781DB4AE98009534E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C1D38A1DB4AE98009534E7 /* SecondViewController.m in Sources */,
+				71C1D3841DB4AE98009534E7 /* AppDelegate.m in Sources */,
+				71C1D3871DB4AE98009534E7 /* FirstViewController.m in Sources */,
+				71C1D3811DB4AE98009534E7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71C1D38B1DB4AE98009534E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71C1D38C1DB4AE98009534E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71C1D3901DB4AE98009534E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71C1D3911DB4AE98009534E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71C1D3941DB4AE98009534E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71C1D3951DB4AE98009534E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71C1D3971DB4AE98009534E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 872UU5QH48;
+				INFOPLIST_FILE = Sanbrex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.Sanbrex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		71C1D3981DB4AE98009534E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 872UU5QH48;
+				INFOPLIST_FILE = Sanbrex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.Sanbrex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71C1D3771DB4AE98009534E7 /* Build configuration list for PBXProject "Sanbrex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C1D3941DB4AE98009534E7 /* Debug */,
+				71C1D3951DB4AE98009534E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71C1D3961DB4AE98009534E7 /* Build configuration list for PBXNativeTarget "Sanbrex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C1D3971DB4AE98009534E7 /* Debug */,
+				71C1D3981DB4AE98009534E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71C1D3741DB4AE98009534E7 /* Project object */;
+}
